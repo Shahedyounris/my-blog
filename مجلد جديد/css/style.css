@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+.container{
+    margin: 20px;
+}
+header{
+    padding-top: 20px;
+}
+header  .logo{
+    float: left ;
+    width: 30%;
+}
+header  .logo img{
+    width: 120px;
+}
+header ul{
+    float:left;
+    width: 40%;
+    margin-left: 50px;
+    margin-right: 90px;
+    margin-top: 30px;
+}
+header ul li{
+    display: inline;
+   margin-right: 30px;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #707070;
+}
+header ul li a:hover{
+    color:blue
+}
+.search{
+    float: left;
+    width: 20%;
+    margin-top: 30px;
+}
+.search form input{
+    display: inline-block;
+    background-color: rgba(3, 124, 255, .12);
+    border: 0;
+    border-radius: 7px;
+    padding-left: 19px;
+    width: 290px;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.landing{
+    height: 500px;
+    background-image: url('../image/landing.png');
+    background-size: cover;
+    text-align: center;
+}
+.landing .test{
+    height: 100%;
+    text-align: center;
+    padding-top: 160px;
+    background-color: rgba(3, 124, 255, .27);
+}
+
+.landing  h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.landing p{
+font-size: 20px;
+margin: auto;
+color:white;
+width: 550px;
+}
+.landing button{
+    margin-top: 30px;
+    width: 120px;
+    height: 52px;
+    background-color: #037CFF;
+    border-radius: 7px;
+    border: 0;
+    font-size: 18px;
+    color: white;
+}
+.cards{
+background-color: white;
+}
+.cards h1{
+    text-align: center;
+ padding-top: 20px;
+ color: #30302e;
+ padding-bottom: 20px;
+ font-size: 50px;
+ font-weight: bold;
+ color: #037CFF;
+}
+.cards .card{
+    float: left;
+    width: 28%;
+    margin-left: 60px;
+    background: white;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px #dddddd;
+}
+.cards .card img{
+    width: 421px;
+    height: 286px;
+    border-radius: 12px;
+
+
+}
+.cards .card h2{
+    text-align: left;
+    margin-left: 5px;
+    padding-top: 2px;
+    color: #30302e;
+    font-size: 20px;
+    margin-left: 15px;
+    
+}
+.cards .card span{
+    float: left;
+    width: 34%;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    opacity: 0.6;
+    color: #051922;
+}
+
+.cards .card p{
+    width: 350px;
+    margin-left: 20px;
+   color:#555;
+ }
+
+.cards .card  a{
+    display: block;
+    margin-bottom: 20px;
+   padding-bottom: 20px;
+   color:black;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 700;
+ }
+
+
+ .form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+ }
+ .form h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: #037CFF;
+ }
+ .form input{
+    display: inline-block;
+    background-color: rgba(3, 124, 255, .12);
+    border: 0;
+    border-radius: 7px;
+    padding-left: 19px;
+    width: 290px;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+ }
+ .form textarea{
+    width: 932px;
+    height: 196px;
+    background-color: rgba(3, 124, 255, .12);
+    border: 0;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-left: 10px;
+ }
+ .form button{
+    width: 270px;
+    height: 70px;
+    background-color: #037CFF;
+    border-radius: 7px;
+    color: White;
+    border: 0;
+    display: block;
+    margin: auto;
+    margin-top: 20px    ;
+}
+.footer{
+    background-color: #051922;
+    color: #fff;
+    padding: 30px 0;
+}
+.footer .about-us{
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+.footer .about-us h2{
+    
+    color: #037CFF;
+}
+
+.footer .about-us p{
+
+    margin-top: 5px;
+    width: 200px;
+    color: #fff;
+}
+.footer .get-touch{
+    float:  left;
+}
+.footer .get-touch h2{
+    color: #037CFF;
+    margin-bottom: 10px;
+
+}
+.footer .get-touch ul{
+    padding-left: 0;
+}
+.footer .get-touch ul li a{
+    color:white;
+    display: block;
+    margin-top: 20px;
+}
+
+.footer .pages{
+    float: left;
+    width: 30%;
+    margin-left: 135px;
+
+
+} 
+.footer .pages ul{
+    padding-left: 0;
+}
+.footer .pages h2{
+color:  #037CFF;
+margin-bottom: 10px;
+}
+
+.footer .pages li a{
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+}
+.footer .pages li a:hover{
+    color: #F28123;
+}
+.footer .subscribe{
+    float: left;
+    width: 17%;
+}
+.footer  .subscribe h2{
+    color: #037CFF;
+    margin-bottom: 20px;
+}
+.footer .subscribe input{
+    margin-top: 15px;
+    border: none;
+    background-color: #012738;
+    width: 72%;
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #fff;
+}
+.footer .subscribe button{
+    background-color: #037CFF;
+    color:white;
+    color: #051922;
+    width: 48px;
+    height: 46px;
+    border:none;
+}
+.footer .subscribe button i{
+    color:white;
+}
+.copyright{
+    background-color: #051922;
+    border-top: 1px solid #232a35;
+    padding-top: 5px;
+}
+.copyright p{
+    margin: 20px;
+    float:left;
+    width: 50%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.copyright ul{
+    text-align: right;
+    margin-right: 67px;
+}
+.copyright ul li{
+    display: inline-block;
+   margin-left: 20px;
+   margin-top: 20px;
+}
+.copyright ul li a .facebook{
+    color: #0866ff;
+}
+.copyright ul li a .twiter{
+    color:white;
+}
+.copyright ul li a .email{
+    color:#ec3f38;
+}
+.copyright ul li a .whatsapp{
+    color:#28be44;
+}
+.copyright ul li a .instagram{
+    color:#b802eb;}
+
+
+
+
+    .sidebar{
+        float: left;
+        width: 280px;
+        box-shadow: 0 0 20px #dddddd;
+        margin-top: 101px;
+    }
+    .sidebar .faomus h2{
+        text-align: center;
+        color: #037CFF; 
+        padding-top: 10px;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+    
+    .sidebar .faomus .card {
+        margin-top: 10px;
+        box-shadow: 0 0 20px #dddddd;
+        padding-left: 8px;
+        margin-bottom: 20px;  
+    }
+    .sidebar .faomus .card img{
+        width: 80px;
+        height: 80px;
+        border-radius: 5px;
+        float:left;
+    } 
+    .sidebar .faomus .card .content{
+        float: left;
+        margin-bottom: 14px;
+      margin-left: 10px;
+    }
+    .sidebar .faomus .card .content span{
+        float: left;
+        font-size: 12px;
+        font-weight: 500;
+        opacity: 0.6;
+        color: #051922;
+        width: 40%;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    .sidebar .faomus .card .content p{
+        font-size: 15px;
+    }
+    .sidebar .faomus .card .content a{
+    
+           font-size: 16px;
+        font-weight: 700;
+        color:#6e6868
+    }
+    .sidebar .category{
+        margin-top: 5px;
+        border-top: 2px solid #8f8e8e;
+        margin-bottom: 20px;
+    }
+    .sidebar .category h2{
+        color: #037CFF; 
+        font-weight: bold;
+        margin-top: 5px;
+        text-align: center;
+        padding: 5px;
+    }
+    .sidebar .category ul li{
+        margin-bottom: 8px;
+    }
+    .sidebar .category ul li a{
+        padding-bottom: 20px;
+        margin-bottom: 12px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #3d5b7b;
+    }
+    .sidebar .tags{
+        margin-top: 5px;
+        border-top: 2px solid #8f8e8e;
+        padding-bottom: 41px;
+        
+    }
+    .sidebar .tags h2{
+        margin-top: 10px;
+        color: #037CFF; 
+        font-weight: bold;
+    
+        text-align: center;
+        padding: 5px;
+    }
+    .sidebar .tags ul li{
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        float: left;
+    
+    }
+    .sidebar .tags ul li a{
+        background: #fff;
+        border-radius: 12px;
+    
+        display: inline-block;
+        color:black;
+        box-shadow: 0 1px 4px #8f8e8e;
+        width: 55px;
+        padding-top: 5px;
+        height: 35px;
+        text-align: center;
+    
+    }
